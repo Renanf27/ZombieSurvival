@@ -33,12 +33,11 @@ shape = SubResource("BoxShape3D_8gp82")
 script = ExtResource("1_oji8i")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Jogador" unique_id=190455892]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 mesh = SubResource("BoxMesh_oji8i")
 surface_material_override/0 = SubResource("StandardMaterial3D_j5dva")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Jogador" unique_id=342320249]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
 shape = SubResource("CapsuleShape3D_ercxp")
 
 [node name="SpringArm3D" type="SpringArm3D" parent="Jogador" unique_id=1030631081]
